@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+.box{
+	width: 90%;
+	margin: 0 auto;
+}
+.row{
+	margin-bottom: 1.75438596491228%;
+}
+.row:after{
+	display: block;
+	content: "";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+[class*="column"]{
+	display: inline;
+	float: left;
+	margin-left: 0.87719298245614%;
+	margin-right: 0.87719298245614%;
+}
+.column1{width:6.57894736842105%}
+.column2{width:14.91228070175439%}
+.column3{width:23.24561403508772%}
+.column4{width:31.57894736842105%}
+.column5{width:39.91228070175439%}
+.column6{width:48.24561403508771%}
+.column7{width:56.57894736842105%}
+.column8{width:64.91228070175439%}
+.column9{width:73.24561403508772%}
+.column10{width:81.57894736842105%}
+.column11{width:89.91228070175439%}
+.column12{width:98.24561403508772%}
+
+body{
+	color: #000;
+	font-family: Ubuntu, Verdana, Tahoma, serif;
+}
+.block1{
+	background:#00685A;
+}
+.block2{
+	background:#5DD0C0;
+}
+.block3{
+	background:#fff;
+}
+.block4{
+	background:#fff;
+}
+.block5{
+	background:#fff;
+}
+.block6{
+	background:#00685A;
+}
+.no-margin-bottom{
+	margin-bottom: 0;
+}
+.underline{
+	border-bottom: 1px dotted grey;
+}
+.navigation{
+	background: #00685A;
+}
+ul.nav{
+	list-style: none;
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+ul.nav li{
+	display: inline;
+	margin-right: 0;
+	margin-left: 30px;
+}
+ul.nav li a{
+	color: #EEDFCC;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+ul.nav li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.caption{
+	background: #5DD0C0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h1, h2, h3{
+	font-family: "MS Serif", "NewYork", sans-serif;
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #fff;
+}
+h2{
+	font-size: 28px;
+	padding-bottom: 5px;
+}
+h3{	
+	font-size: 28px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+p{
+	transition: justify;
+	margin-bottom: 10px;
+}
+p a{
+	color: grey;
+	text-decoration: none;
+}
+p a:hover{
+	text-decoration: underline;
+}
+p.text-center{
+	transition: center;
+	line-height: 5;
+	color: #fff;
+}
+ul.features li{
+	list-style-position: inside;
+	font-style: italic;
+	text-indent: 20px;
+}
+ul.article li{
+	list-style: none;
+	margin-top: 15px;
+	margin-bottom: 1px dotted grey;
+}
+ul.article li a{
+	color: #000;
+	text-decoration: none;
+}
+ul.article li a:hover{
+	color: #00685A;
+	text-decoration: underline;
+}
+.picture{
+	transition: center;
+}
+img{
+	width: 70%;
+	margin-left: auto;
+}
+img.image{
+	border: 1px solid grey;
+	width: 100%
+}
